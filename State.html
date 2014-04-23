@@ -1,0 +1,80 @@
+m<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta charset="UTF-8">
+	<title>State Capital Quiz</title> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <link href="/style/WhatintheWorld.css" rel="stylesheet" type="text/css">
+    
+    <style>
+	img{
+		opacity:.5;
+	}
+	input{
+		font-family:ElliotSix;
+	}
+	
+	.ui-block-a{
+		background-image:linear-gradient(red, #D93234);
+		text-align:center;
+		padding:0px;
+	height:5em;
+		}
+	.ui-block-b{
+		background-image:linear-gradient(blue, #000099);
+		height:5em;
+	}
+	
+	h4{color:white;
+	font-family:"Cinzel Decorative Bold";
+	font-size:24px;
+	padding:none;
+	}
+	a {
+		text-align:center;
+		text-decoration:none;
+	}
+	#imagecen{
+		
+		width:400px;
+		margin:0px auto;
+	}
+	
+</style>
+</head>
+
+<body>
+<div id="restau" data-role="page" data-add-back-btn="true">
+<div class="ui-grid-a">
+	<div class="ui-block-a"><h4>High Score:0</h4><br>
+	</div>
+    <div class="ui-block-b"><a href="#" ><h4>Facebook</h4></a><br>
+	</div>
+</div>
+<section data-role="content">
+<div id="imagecen">
+<img src="images/a_guessing_game.png" name="showState" alt="State Capital guessing game ">
+</div>
+		<form method="post" action="demoform.asp">
+     	<div class="ui-field-contain">
+        	<input type="text" name="hint" Value="Welcome to State Capitals" id="hint" readonly class="txt1">
+        	<label for="Hint">Hint:</label>
+        	<input type="text" name="hint1" id="hint" Value="please hit start to begin" readonly class="txt1">       
+        	<label for="guess">Guess Here</label>
+        	<input type="text" name="guess" id="guess" >
+        
+      	</div>
+      <input type="Submit" data-inline="true" value="Start">
+      <input type="Submit" data-inline="true" value="Guess">
+      <input type="reset" data-inline="true" value="Clear">
+    </form>
+        
+	</section>
+    <footer data-role="footer" data-position="fixed">
+    <h1>Reserve for AdSpace</h1>
+  </footer>
+</div>
+</body>
+</html>

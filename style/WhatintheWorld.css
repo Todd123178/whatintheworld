@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+<style>
+
+	h1 {
+		margin-bottom:0px;
+	}
+	#globe{
+		display:block;
+		margin:0 auto;
+	}
+	
+	#restau{
+		background-image:url(../images/background.fw.png);
+		background-size:cover;
+	}
+	.ui-btn{
+    background-image:radial-gradient(#0DA920,#006600);
+	font-family:"Cinzel Decorative Bold";
+	font-size:24px;
+	padding:5px;
+	position:relative;
+	}
+	#branding h1{
+	font-family:'eraser';
+	font-size:36px;
+	text-align:center;
+	}
+	#blueish{
+	color:#3F5983;
+	}
+	#babyblue{
+	color:#00BFFF;
+	}
+	#red{
+	color:red;
+	}
+	#green{
+	color:green;
+	}
+	#blue{
+	color:blue;
+	}
+	
+</style>
+    
+
